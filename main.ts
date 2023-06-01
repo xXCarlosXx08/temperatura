@@ -1,3 +1,6 @@
+radio.onReceivedNumber(function (receivedNumber) {
+    basic.showNumber(input.temperature())
+})
 input.onButtonPressed(Button.A, function () {
     basic.showNumber(input.temperature())
 })
